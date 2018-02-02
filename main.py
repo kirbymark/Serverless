@@ -24,7 +24,7 @@ app = Flask(__name__)
 @app.route('/')
 def hello():
     """Return a friendly HTTP greeting."""
-    return 'Hello World! This is just a short test'
+    return 'Hello World! This is just a short test and its running fine'
 
 
 @app.errorhandler(500)
